@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|笔记|添加</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/home.style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-tab.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-dropdown.js"></script>
+
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+	<include file="public:header" />
+	 <!-- end of header -->
+   
+    <div id="templatemo_middle_sub">
+        <div id="mid_title">笔记</div>
+        <p>生活中的日志是记录你生活的点点滴滴，让它把你内心的世界表露出来，更好的诠释自己的内心世界，而电脑里的日志可以是有价值的信息宝库，也可以是毫无价值的数据泥潭。</p>
+	</div> <!-- end of middle -->
+    
+     <div id="templatemo_main">
+     	<form id="note" name="note" action="__URL__/add" method="post">
+        	标题：<input name="title" type="text" value=""/><br/>
+            内容：<textarea id="notecontent" name="content"></textarea><br/>
+            分类：<select name="category_id">
+            	<volist name="list" id="v">
+            		<option value="{$v.id}">{$v.name}</option>
+				</volist>
+            </select><br/>
+            　　　<button class="btn btn-primary" type="submit">确定</button>
+         </form>
+    </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+	<include file="public:sub_menu" />
+	<include file="public:footer" />
+
+</body>
+</html>

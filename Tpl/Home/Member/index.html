@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|个人设置</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/home.style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/jsbootstrap-dropdown.js"></script>
+
+<script language="javascript">
+	$(document).ready(function() {
+        $(".card1").click(function(){
+			$(".select1").css("display","block");
+			$(".select2").css("display","none");
+			$(".select3").css("display","none");
+		});
+        $(".card2").click(function(){
+			$(".select1").css("display","none");
+			$(".select2").css("display","block");
+			$(".select3").css("display","none");
+		});
+        $(".card3").click(function(){
+			$(".select1").css("display","none");
+			$(".select2").css("display","none");
+			$(".select3").css("display","block");
+		});				
+    });
+</script>
+
+
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+	<include file="public:header" />
+ <!-- end of header -->
+    
+	<div id="templatemo_middle_sub">
+        <div id="mid_title">个人档案</div>
+        <p>在现实世界中，个人信息随处可见，与我们的生活息息相关。个人信息是个人隐私的一部分，应征得个人信息的主体同意，才可在限定的目的范围内使用。本网站可以守护你的个人信息，你的个人信息和你的名片息息相关，请认真填写。</p>
+	</div> <!-- end of middle -->
+    
+     <div id="templatemo_main">
+        <div class="col_w450 float_l">
+            <div id="contact_form">
+        		<h3>个人信息</h3>
+                <form method="post" name="contact" action="#">
+                    <label class="control-label" for="uname">用户名</label>
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-user"></i></span>
+                        <input class="span2" id="uname"  name="username" value="{$row.username}"type="text">
+                    </div><!--end of name box-->
+                    <label class="control-label" for="name">实名</label>
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-lock"></i></span>
+                        <input class="span2" id="name" name="realname" value="{$row.realname}"type="text">
+                    </div><!--end of name box-->
+                   	<label class="control-label" for="e-mail">邮箱地址</label>
+                    <div class="input-prepend">
+                    	<span class="add-on"><i class="icon-envelope"></i></span>
+                    	<input class="span2" id="email" name="email" value="{$row.email}" type="text">
+                    </div><!--end of e-mail box-->
+                    <label class="control-label" for="sex">性别</label>
+                        <select class="span1" id="sex">
+                            <option value="1">男</option>
+                            <option value="0">女</option>
+                		</select><!--end of sex box-->
+                    <label for="age">年龄</label>
+                    <div class="input-prepend">
+                    	<span class="add-on"><i class="icon-facetime-video"></i></span><input class="span1" id="age" type="text">
+                    </div><!--end of age box-->
+                    <label for="hobby">爱好</label>
+                    <div class="input-prepend">
+                    	<span class="add-on"><i class="icon-leaf"></i></span><input class="span3" id="hobby" type="text">
+                    </div><!--end of position box-->         
+                    <label for="place">工作岗位</label>
+                    <div class="input-prepend">
+                    	<span class="add-on"><i class="icon-edit"></i></span><input class="span3" id="place" type="text">
+                    </div><!--end of work box-->
+                    <label for="position">职称</label>
+                    <div class="input-prepend">
+                    	<span class="add-on"><i class="icon-star"></i></span><input class="span2" id="position" type="text">
+                    </div><!--end of position box-->
+                    <div class="per_btn_move">
+                		<input type="submit" value="确认" class="btn btn-primary btn-large" />　<input type="submit" value="重置" class="btn btn-inverse btn-large" />
+                    </div>
+				</form> 
+            </div>
+        </div>   
+        <div class="col_w500 float_r">
+            <h2>设计我的名片样式</h2>
+            <div class="card_select">
+            	<table border="0">
+                  <tr>
+                    <td width="48"><img src="images/select.png" class="select1"/></td>
+                    <td width="488"><img src="images/card1.png" class="card1"/></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/select.png" class="select2"/></td>
+                    <td><img src="images/card2.png" class="card2"/></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/select.png" class="select3"/></td>
+                    <td><img src="images/card3.png" class="card3"/></td>
+                  </tr>
+                </table><br/>
+            </div>
+            <form method="get" action="#">
+            	<input type="submit" value="立即使用" class="btn btn-primary btn-large float_r" />
+            </form>
+        </div>
+    	<div class="cleaner"></div>
+	</div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+	<include file="public:sub_menu" />
+	<include file="public:footer" />	
+</body>
+</html>

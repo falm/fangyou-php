@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|笔记</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/home.style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-tab.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-dropdown.js"></script>
+
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+
+
+	<include file="public:header" />
+	<!-- end of header -->
+   
+    <div id="templatemo_middle_sub">
+        <div id="mid_title">笔记</div>
+        			<p>生活中的日志是记录你生活的点点滴滴，让它把你内心的世界表露出来，更好的诠释自己的内心世界，而电脑里的日志可以是有价值的信息宝库，也可以是毫无价值的数据泥潭。</p>
+		</div> <!-- end of middle -->
+    
+    <div id="templatemo_main">
+        <form action="" method="post" class="float_r">
+        	<button class="btn" id="newbtn" formaction="add" formtarget="_blank">新建记事</button>
+		</form>
+	</div>
+       <div class="tabbable ">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#lA" data-toggle="tab">心情eins</a></li>
+            <li><a href="#lB" data-toggle="tab">心情zwei</a></li>
+            <li><a href="#lC" data-toggle="tab">心情drei</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="lA">
+				<volist name="list1" id="v">
+					<p><a href="__URL__/show/id/{$v.id}">{$v.title}</a></p>
+				</volist>
+	             
+            </div>
+            <div class="tab-pane" id="lB">
+				<volist name="list2" id="v">
+					<p><a href="__URL__/show/id/{$v.id}">{$v.title}</a></p>
+				</volist>
+            </div>
+            <div class="tab-pane" id="lC">
+				<volist name="list3" id="v">
+					<p><a href="__URL__/show/id/{$v.id}">{$v.title}</a></p>
+				</volist>
+            </div>
+          </div>
+        </div> <!-- /tabbable -->
+      	
+    </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+	<include file="public:sub_menu" />
+	<include file="public:footer" />
+
+</body>
+</html>

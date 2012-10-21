@@ -1,0 +1,1081 @@
+[ 2012-10-17T00:37:19+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004359s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004028s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007293s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101383s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.120490s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.124922s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.129573s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.133089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018520s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.139096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007074s ]
+
+[ 2012-10-17T00:37:55+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007550s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003686s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026444s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037862s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039403s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041068s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006656s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2012-10-17T00:37:56+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001831s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004571s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001931s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019610s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026207s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.027313s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028228s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003862s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2012-10-17T00:37:57+08:00 ] 127.0.0.1 /cbox/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001805s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023143s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026781s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028344s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029614s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005293s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2012-10-17T00:51:22+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008614s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003253s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022602s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034589s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036207s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037632s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2012-10-17T00:51:26+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006897s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002869s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015161s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025018s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026405s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027600s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004663s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2012-10-17T00:51:32+08:00 ] 127.0.0.1 /cbox/index.php/admin/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003303s ]
+
+[ 2012-10-17T00:51:44+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002951s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005854s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002145s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018868s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026992s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028689s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030251s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003112s ]
+
+[ 2012-10-17T00:54:17+08:00 ] 127.0.0.1 /cbox/index.php/admin/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002258s ]
+
+[ 2012-10-17T00:55:39+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/login/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002911s ]
+
+[ 2012-10-17T00:55:40+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002410s ]
+
+[ 2012-10-17T00:55:40+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/top/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001992s ]
+
+[ 2012-10-17T00:55:41+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/left/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003933s ]
+
+[ 2012-10-17T00:55:41+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/welcome
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+
+[ 2012-10-17T00:55:44+08:00 ] 127.0.0.1 /cbox/index.php/admin/Card/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002455s ]
+
+[ 2012-10-17T00:55:44+08:00 ] 127.0.0.1 /cbox/index.php/admin/Card/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `cards` [ RunTime:0.028508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cards` LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT c.id,c.email,c.phone,c.style,c.realname,m.username,ca.name
+		FROM (members as m join cards as c on m.id=c.member_id) join categoires as ca on c.category_id = ca.id  [ RunTime:0.006822s ]
+
+[ 2012-10-17T00:55:46+08:00 ] 127.0.0.1 /cbox/index.php/admin/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002074s ]
+
+[ 2012-10-17T00:55:47+08:00 ] 127.0.0.1 /cbox/index.php/admin/Member/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.004523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `members` LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT * FROM `members` LIMIT 0,10   [ RunTime:0.000447s ]
+
+[ 2012-10-17T00:55:48+08:00 ] 127.0.0.1 /cbox/index.php/admin/Message/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002372s ]
+
+[ 2012-10-17T00:55:48+08:00 ] 127.0.0.1 /cbox/index.php/admin/Message/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `messages` LIMIT 0,10   [ RunTime:0.000337s ]
+
+[ 2012-10-17T00:55:49+08:00 ] 127.0.0.1 /cbox/index.php/admin/Note/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003123s ]
+
+[ 2012-10-17T00:55:49+08:00 ] 127.0.0.1 /cbox/index.php/admin/Note/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.021155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT * FROM `notes` LIMIT 0,10   [ RunTime:0.000449s ]
+
+[ 2012-10-17T00:55:49+08:00 ] 127.0.0.1 /cbox/index.php/admin/Photo/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002418s ]
+
+[ 2012-10-17T00:55:49+08:00 ] 127.0.0.1 /cbox/index.php/admin/Photo/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.004895s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `photos` LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `photos` LIMIT 0,10   [ RunTime:0.000359s ]
+
+[ 2012-10-17T00:55:50+08:00 ] 127.0.0.1 /cbox/index.php/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002395s ]
+
+[ 2012-10-17T00:55:51+08:00 ] 127.0.0.1 /cbox/index.php/admin/Photo/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002115s ]
+
+[ 2012-10-17T00:55:51+08:00 ] 127.0.0.1 /cbox/index.php/admin/Photo/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.003525s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `photos` LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT * FROM `photos` LIMIT 0,10   [ RunTime:0.000407s ]
+
+[ 2012-10-17T00:55:52+08:00 ] 127.0.0.1 /cbox/index.php/admin/Note/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002291s ]
+
+[ 2012-10-17T00:55:52+08:00 ] 127.0.0.1 /cbox/index.php/admin/Note/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.003893s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` LIMIT 1   [ RunTime:0.001774s ]
+SQL: SELECT * FROM `notes` LIMIT 0,10   [ RunTime:0.000280s ]
+
+[ 2012-10-17T00:55:52+08:00 ] 127.0.0.1 /cbox/index.php/admin/Message/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002097s ]
+
+[ 2012-10-17T00:55:52+08:00 ] 127.0.0.1 /cbox/index.php/admin/Message/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.003571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `messages` LIMIT 0,10   [ RunTime:0.000300s ]
+
+[ 2012-10-17T00:55:53+08:00 ] 127.0.0.1 /cbox/index.php/admin/Card/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003644s ]
+
+[ 2012-10-17T00:55:53+08:00 ] 127.0.0.1 /cbox/index.php/admin/Card/getdata
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `cards` [ RunTime:0.003614s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cards` LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT c.id,c.email,c.phone,c.style,c.realname,m.username,ca.name
+		FROM (members as m join cards as c on m.id=c.member_id) join categoires as ca on c.category_id = ca.id  [ RunTime:0.000523s ]
+
+[ 2012-10-17T00:56:58+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001988s ]
+
+[ 2012-10-17T00:57:02+08:00 ] ERR: (ThinkException) 非法操作:mai
+[ 2012-10-17T00:57:02+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/mai
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001992s ]
+
+[ 2012-10-17T00:57:03+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003887s ]
+
+[ 2012-10-17T01:03:08+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004740s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011356s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003923s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020196s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035592s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037621s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039467s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007364s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2012-10-17T01:08:56+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003652s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006973s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003579s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029734s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031681s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033385s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006594s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2012-10-17T01:09:00+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002503s ]
+
+[ 2012-10-17T01:29:01+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2012-10-17T01:29:19+08:00 ] 127.0.0.1 /cbox/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.005385s ]
+SQL: SELECT * FROM `members` WHERE `username`='test2' and `password`='202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.000555s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032029s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005552s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014166s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051846s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053583s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055051s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007343s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2012-10-17T01:29:20+08:00 ] 127.0.0.1 /cbox/index.php/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003406s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003568s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009702s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007404s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070403s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087720s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.091895s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095517s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004184s ]
+
+[ 2012-10-17T01:29:24+08:00 ] 127.0.0.1 /cbox/index.php/Member/search?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.004512s ]
+SQL: SELECT * FROM `members`  [ RunTime:0.000817s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.030170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003848s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076112s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.110332s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.112939s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.115413s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.117458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009428s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.119979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2012-10-17T01:29:30+08:00 ] 127.0.0.1 /cbox/index.php/Member/search?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.003837s ]
+SQL: SELECT * FROM `members` WHERE username like 'test3'  [ RunTime:0.000587s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034733s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003810s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018154s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056788s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058243s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059964s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005688s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2012-10-17T01:29:38+08:00 ] 127.0.0.1 /cbox/index.php/Index/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+
+[ 2012-10-17T01:29:38+08:00 ] 127.0.0.1 /cbox/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006830s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003715s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020581s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031244s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035822s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008329s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2012-10-17T01:32:53+08:00 ] 127.0.0.1 /cbox/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002395s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.005051s ]
+SQL: SELECT * FROM `members` WHERE `username`='test2' and `password`='202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.000967s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.047885s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015639s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065771s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067262s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.068870s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006029s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2012-10-17T01:32:54+08:00 ] 127.0.0.1 /cbox/index.php/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011907s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017588s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018331s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019067s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002659s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2012-10-17T01:33:00+08:00 ] 127.0.0.1 /cbox/index.php/Member/setting
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004740s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.005700s ]
+SQL: SELECT * FROM `members` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000545s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049676s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003388s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.053120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021739s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074921s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.078822s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.081099s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.082875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009598s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.084620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2012-10-17T01:33:09+08:00 ] 127.0.0.1 /cbox/index.php/Member/useCard?style=card5
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `moodandstyle` [ RunTime:0.005800s ]
+SQL: UPDATE `moodandstyle` SET `style`='card5' WHERE `member_id`='4' [ RunTime:0.001321s ]
+
+[ 2012-10-17T01:33:31+08:00 ] 127.0.0.1 /cbox/index.php/Member/update/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004542s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.004973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.005632s ]
+SQL: SELECT * FROM `members` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `members` WHERE ( `username` = 'test2' ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: UPDATE `members` SET `username`='test2',`password`='202cb962ac59075b964b07152d234b70',`email`='hjj1992@gmail.com',`phone`='13347011234',`sex`=1,`brithday`='1998-09-23',`realname`='jack',`brief`=null,`lastlogintime`='2012-10-14 15:08:14',`registertime`='0000-00-00 00:00:00' WHERE ( `id` = 4 ) [ RunTime:0.000684s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.055671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003229s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.058982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.077245s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.079121s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.080797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.082249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007248s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.084600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2012-10-17T01:33:32+08:00 ] 127.0.0.1 /cbox/index.php/Member/setting
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.005329s ]
+SQL: SELECT * FROM `members` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000843s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036349s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004003s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067503s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069569s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071436s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007323s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2012-10-17T01:33:37+08:00 ] 127.0.0.1 /cbox/index.php/Note/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+NOTIC: [2048] Declaration of NoteAction::show() should be compatible with that of Action::show() C:\Program Files\wamp\www\CBox\Lib\Action\Home\NoteAction.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.003998s ]
+SQL: SELECT * FROM `notes` WHERE `member_id` = '4'  [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `settings` [ RunTime:0.003899s ]
+SQL: SELECT * FROM `settings` WHERE `key` ='Note_Cid' LIMIT 1   [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `categoires` [ RunTime:0.006576s ]
+SQL: SELECT * FROM `categoires` WHERE pid = '1'  [ RunTime:0.000732s ]
+NOTIC: [8] Undefined variable: list3 C:\Program Files\wamp\www\CBox\Lib\Action\Home\NoteAction.class.php 第 37 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040988s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002519s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050057s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.093658s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.096048s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097369s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001917s ]
+
+[ 2012-10-17T01:33:44+08:00 ] 127.0.0.1 /cbox/index.php/Note/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+NOTIC: [2048] Declaration of NoteAction::show() should be compatible with that of Action::show() C:\Program Files\wamp\www\CBox\Lib\Action\Home\NoteAction.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `settings` [ RunTime:0.003890s ]
+SQL: SELECT * FROM `settings` WHERE `key` ='Note_Cid' LIMIT 1   [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `categoires` [ RunTime:0.003158s ]
+SQL: SELECT * FROM `categoires` WHERE pid = '1'  [ RunTime:0.000735s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.035526s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003655s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.107083s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.109522s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.115685s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.119080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.121968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002900s ]
+
+[ 2012-10-17T01:33:49+08:00 ] 127.0.0.1 /cbox/index.php/Note/show/id/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+NOTIC: [2048] Declaration of NoteAction::show() should be compatible with that of Action::show() C:\Program Files\wamp\www\CBox\Lib\Action\Home\NoteAction.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `notes` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000748s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037989s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002469s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042077s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.082635s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.084297s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.085973s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.087135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.088621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2012-10-17T01:34:11+08:00 ] 127.0.0.1 /cbox/index.php/Note/edit/id/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002798s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+NOTIC: [2048] Declaration of NoteAction::show() should be compatible with that of Action::show() C:\Program Files\wamp\www\CBox\Lib\Action\Home\NoteAction.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.006442s ]
+SQL: SELECT * FROM `notes` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `settings` [ RunTime:0.004160s ]
+SQL: SELECT * FROM `settings` WHERE `key` ='Note_Cid' LIMIT 1   [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `categoires` [ RunTime:0.003389s ]
+SQL: SELECT * FROM `categoires` WHERE pid = '1'  [ RunTime:0.000686s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.053810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003301s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.057174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051956s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.109179s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.110552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.112868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.113876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005925s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.115179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2012-10-17T01:34:24+08:00 ] 127.0.0.1 /cbox/index.php/Card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001344s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `cards` [ RunTime:0.005481s ]
+SQL: SELECT * FROM `cards` WHERE `member_id` = '4'  [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `settings` [ RunTime:0.004911s ]
+SQL: SELECT * FROM `settings` WHERE `key` ='Card_Cid' LIMIT 1   [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `categoires` [ RunTime:0.005483s ]
+SQL: SELECT * FROM `categoires` WHERE pid = '4'  [ RunTime:0.000897s ]
+NOTIC: [8] Undefined variable: list2 C:\Program Files\wamp\www\CBox\Lib\Action\Home\CardAction.class.php 第 30 行.
+NOTIC: [8] Undefined variable: list3 C:\Program Files\wamp\www\CBox\Lib\Action\Home\CardAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.056960s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003851s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.060861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079225s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.140175s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.141917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.143166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.144681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006594s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.146837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2012-10-17T01:34:41+08:00 ] 127.0.0.1 /cbox/index.php/Photo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+NOTIC: [2048] Declaration of PhotosModel::delete() should be compatible with that of Model::delete() C:\Program Files\wamp\www\CBox\Lib\Model\PhotosModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.005777s ]
+SQL: SELECT * FROM `photos` WHERE `member_id` = '4'  [ RunTime:0.001123s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044385s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050602s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097685s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.099329s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.100818s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005746s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004967s ]
+
+[ 2012-10-17T01:35:50+08:00 ] 127.0.0.1 /cbox/index.php/Card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003211s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `cards` [ RunTime:0.004149s ]
+SQL: SELECT * FROM `cards` WHERE `member_id` = '4'  [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `settings` [ RunTime:0.003744s ]
+SQL: SELECT * FROM `settings` WHERE `key` ='Card_Cid' LIMIT 1   [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `categoires` [ RunTime:0.004670s ]
+SQL: SELECT * FROM `categoires` WHERE pid = '4'  [ RunTime:0.000736s ]
+NOTIC: [8] Undefined variable: list2 C:\Program Files\wamp\www\CBox\Lib\Action\Home\CardAction.class.php 第 30 行.
+NOTIC: [8] Undefined variable: list3 C:\Program Files\wamp\www\CBox\Lib\Action\Home\CardAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002650s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.051933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.078213s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.079145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004707s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.080422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2012-10-17T01:35:51+08:00 ] 127.0.0.1 /cbox/index.php/Member/setting
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.004671s ]
+SQL: SELECT * FROM `members` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000554s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041475s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002064s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017839s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061497s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062427s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003113s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2012-10-17T01:35:53+08:00 ] 127.0.0.1 /cbox/index.php/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004712s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020971s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021872s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022601s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003148s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2012-10-17T02:29:51+08:00 ] 127.0.0.1 /cbox/index.php/admin/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002111s ]
+
+[ 2012-10-17T02:29:51+08:00 ] 127.0.0.1 /cbox/index.php/Photo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+NOTIC: [2048] Declaration of PhotosModel::delete() should be compatible with that of Model::delete() C:\Program Files\wamp\www\CBox\Lib\Model\PhotosModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.006409s ]
+NOTIC: [8] Undefined index: user_id C:\Program Files\wamp\www\CBox\Lib\Action\Home\PhotoAction.class.php 第 16 行.
+SQL: SELECT * FROM `photos` WHERE `member_id` = ''  [ RunTime:0.000709s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038129s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002591s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045424s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.086249s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.087450s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.088480s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.089403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004311s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.090638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2012-10-17T07:47:30+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004568s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002518s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031881s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039120s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040330s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004147s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2012-10-17T07:47:31+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002656s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012132s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015704s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016577s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017362s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2012-10-17T07:47:40+08:00 ] 127.0.0.1 /cbox/index.php/admin/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001858s ]
+
+[ 2012-10-17T07:48:01+08:00 ] 127.0.0.1 /cbox/index.php/admin/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001795s ]
+
+[ 2012-10-17T14:56:58+08:00 ] 127.0.0.1 /cbox/index.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.008317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Program Files\wamp\www\CBox\ThinkPHP\Common\functions.php 第 526 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.093833s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009570s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.103480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274165s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.377734s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.379787s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.381767s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.387176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.389916s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002507s ]
+

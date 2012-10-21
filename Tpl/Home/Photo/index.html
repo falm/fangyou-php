@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|相册</title>
+
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="__CPUBLIC__/css/home.style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-modal.js"></script>
+
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+	
+	<!-- Include Header -->
+	<include file="public:header"/>
+   
+    <div id="templatemo_middle_sub">
+        <div id="mid_title">相册</div>
+        <p>记录你的点点滴滴，像成为世界的焦点吗？那就多上传些美丽的照片吧。</p>
+	</div> <!-- end of middle -->
+	<div id="templatemo_main">
+    
+
+	<script type="text/javascript" src="__CPUBLIC__/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="__CPUBLIC__/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="__CPUBLIC__/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+
+			var id;
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					//ids = $(this).attr("name");
+					//alert(ids);
+					
+					return '<span id="fancybox-title-over">Images ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '<a id="pic_remove" href="#" class="float_r" title="删除"><i class="icon-remove icon-white"></i>删除</a> </span>';
+				},
+				//'onStart'			:function  () {
+				//	name = $("a[rel=example_group]").att("name");
+			//		alert(name);
+			//	}		
+				
+				
+				//在此处上方填写描述
+			});
+		//	$("a[rel=example_group]").click(function  () {
+		//		alert($(this).attr("name"));
+	//	})；
+			/*
+			*   Examples - various
+			*/
+			
+			$("#pic_remove").click(function() {
+				//alert('Pid:'+id);
+				alert('s');
+			});
+
+
+		});
+	</script>
+</head>
+<body>
+
+	<div id="myModal" class="modal  fade">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal" >&times;</a>
+          <h3>相册</h3>
+        </div>
+        <div class="modal-body">
+          <h4>填写相片信息</h4>
+
+          <form id="emotion" method="post" action="__URL__/create" enctype="multipart/form-data"  accept-charset="utf-8" >
+              <textarea class="feelingsText" name="description"></textarea>
+          
+          <hr>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn" data-dismiss="modal" >关闭</a>
+         <!--<a href="#" class="btn btn-primary">保存</a>-->
+         <input class="btn btn-primary" type="submit" name="submit" value="保存">
+        </div>
+        
+    </div> <!--end of dialog-->
+    
+	<a href="#">上传图片</a><input type="file" name="pic"/><button data-toggle="modal"  data-target="#myModal" href="#myModal" id="upload" type="submit" class="btn btn-primary">上传</button>
+	</form>
+	<p>
+		<h4>{$Think.session.user}的相册<h4><br />
+		<volist name="list" id="v">
+			<a rel="example_group" href="__CPHOTOS__/{$v.member_id}/{$v.name}" title="{$v.description}" name="{$v.id}">
+			<img class="last" alt="" src="__CPHOTOS__/{$v.member_id}/thumb_{$v.name}" /></a>
+		</volist>
+	</p>
+          
+    </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+
+
+	<include file="public:sub_menu" />
+	<include file="public:footer" />
+
+</body>
+</html>

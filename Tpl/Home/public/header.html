@@ -1,0 +1,40 @@
+	<div id="templatmeo_header">
+    	<div id="logo_header">
+    	
+        	<img src="__CPUBLIC__/images/mylogo.png"/>
+        	
+        </div>
+        <div id="templatemo_menu">
+            <ul>
+                <li><a id="h1" href="__APP__/Index/main">主页</a></li>
+                <li><a id="h2" href="__APP__/Member/setting">个人档案</a></li>
+                <li><a id="h3" href="__APP__/Card">名片管理</a></li>
+                <li><a id="h4" href="__APP__/Note/">笔记</a></li>
+                <li><a id="h5" href="__APP__/Photo/" >相册</a></li>
+            </ul>    	
+        </div> <!-- end of templatemo_menu -->
+
+        <div id="userinfo">
+        <li class="dropdown">
+        		 <a href="#" style="text-decoration:none;"><span class="badge badge-info">0</span></a>
+              <a class="dropdown-toggle" id="droplist" data-toggle="dropdown" href="#">{$Think.session.user}<b class="caret"></b></a>
+              <ul id="menu3" class="dropdown-menu">
+                <li><a href="__APP__/Index/main">我的主页</a></li>
+                <li><a href="__APP__/Member/setting">个人资料设置</a></li>
+                <li><a href="__APP__/Note/index">记事本</a></li>
+                <li class="divider"></li>
+                <li><a href="__APP__/Index/logout">退出</a></li>
+              </ul>
+            </li>
+        </div><!-- end of dropdown-->
+        
+    </div> <!-- end of header -->
+    <script type="text/javascript" charset="utf-8">
+    	switch('__URL__'){
+    		case '__APP__/Index':$('#h1').attr('class','current');break;
+    		case '__APP__/Member':$('#h2').attr('class','current');break;
+    		case '__APP__/Card':$('#h3').attr('class','current');break;
+    		case '__APP__/Note':$('#h4').attr('class','current');break;
+    		case '__APP__/Photo':$('#h5').attr('class','current');break;
+    	}
+    </script>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|名片</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-collapse.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-modal.js"></script>
+
+<style>
+	#droplist{
+		color: #a2a8b8;
+		text-decoration:none;
+	}
+	#droplist:hover{
+		color:#FFF;
+		text-decoration:none;
+	}
+	.list{list-style:none;}
+	.list img{display:none;}
+	#cardback{
+		background:url(__CPUBLIC__/images/card/card1.jpg) no-repeat; 
+		width:500px; 
+		height:300px;
+	}
+	#cardtext{
+		float:left;
+		margin-left:80px;
+		margin-top:25px;
+		width:400px;
+		color:#FFF;
+		list-style:none;
+	}	
+</style>
+<script language="javascript">
+	$(document).ready(function() {
+        $("a[rel=example_group]").click(function(){
+			$(".modal-body h4").html($(this).attr('lname'));
+			$("#cardtext h5").html($(this).attr('lname'));
+			$("#cardtext span").html($(this).attr('lmail'));
+			$("#cardtext p").html($(this).attr('lbrief'));
+			$("#cardtext st").html($(this).attr('lphone'));
+			
+			$('.remove').attr('lid',$(this).attr('lid'));
+			style = $(this).attr('lstyle');
+			
+			$("#cardback").css("background","url(__CPUBLIC__/images/card/"+style+".jpg) no-repeat");
+		
+		});
+		
+		$(".remove").click(function(){
+			id = $(this).attr('lid');
+			
+			$.get('__URL__/destroy',{'id':id},function  (data) {
+				alert(data.info);
+			},'json');
+		} );
+    });
+</script>
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+	<include file="public:header" /> 
+    <div id="myModal" class="modal hide fade">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal" >&times;</a>
+          <h3>名片</h3>
+        </div>
+        <div class="modal-body">
+          <h4>用户名</h4>
+          
+          <div id="cardback">
+          		<div id="cardtext">
+          			<h5 style="color:#999"></h5></br>
+          			E-mail：<span></span><br/>
+          			电话：<st></st>
+          			<p></p>
+          		</div>
+          </div><br/>
+          <a href="__APP__/Message/#multicast"><li class="icon-envelope" title="发信"></li>发送消息</a>　　　　　　
+          <a href="#" class="remove"><li class="icon-remove" title="删除用户"></li>删除名片</a>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn" data-dismiss="modal" >关闭</a>
+        </div>
+    </div> <!--end of dialog-->
+    
+    <div id="templatemo_middle_sub">
+        <div id="mid_title">名片管理</div>
+        <p>可以将你的同事，好友，家人等归类别存放。方便快捷，加深你对友人的联系，不再窝在家中对着名片发愁。</p>
+	</div> <!-- end of middle -->
+    
+     <div id="templatemo_main">
+     	<a href="__URL__/add" class="float_l" target="_blank">添加名片+</a>
+     	<a href="__APP__/Member/search" class="float_r" target="_blank">添加好友+</a><br/>
+        
+        <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#selector" href="#collapseOne">
+                  好友</a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                          	
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>　</th>
+                            <th>名字</th>
+                            <th>电话</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="list1" id="v">
+                          <tr>
+                            <td>
+                            	<a data-toggle="modal" data-target="#myModal" 
+                            	href="#myModal" rel="example_group" lid="{$v.id}"
+                            	lname="{$v.realname}" lstyle="{$v.style}" lmail="{$v.email}"
+                            	lbrief="{$v.brief}" lphone='{$v.phone}'
+                            	>
+                            	详情
+                            	<img src="__CPUBLIC__/images/arrow.png"/></a>
+                        	</td>
+                            <td>{$v.realname}</td>
+                            <td>{$v.phone}</td>
+                            
+                          </tr>
+  						</volist>
+                        </tbody>
+                      </table><!-- end of table-->
+                    
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#selector" href="#collapseTwo">
+                  家人</a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>　</th>
+                            <th>名字</th>
+                            <th>电话</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="list2" id="v">
+                          <tr>
+                            <td>
+                            	<a data-toggle="modal" data-target="#myModal" href="#myModal" rel="example_group" lid="{$v.id}">详情
+                            	<img src="__CPUBLIC__/images/arrow.png"/></a>
+                        	</td>
+                            <td>{$v.realname}</td>
+                            <td>{$v.phone}</td>
+                            
+                          </tr>
+  						</volist>
+                        </tbody>
+                      </table><!-- end of table-->
+                  
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#selector" href="#collapseThree">
+                  同事</a>
+              </div>
+              <div id="collapseThree" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>　</th>
+                            <th>名字</th>
+                            <th>电话</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="list3" id="v">
+                          <tr>
+                            <td>
+                            	<a data-toggle="modal" data-target="#myModal" href="#myModal" rel="example_group" lid="{$v.id}">详情
+                            	<img src="__CPUBLIC__/images/arrow.png"/></a>
+                        	</td>
+                            <td>{$v.realname}</td>
+                            <td>{$v.phone}</td>
+                            
+                          </tr>
+  						</volist>
+                        </tbody>
+                      </table><!-- end of table-->
+                
+                </div>
+              </div>
+            </div>
+          </div><!--end of window shades--> 
+              
+        <div class="cleaner"></div>	
+    </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+	<include file="public:sub_menu" />
+	<include file="public:footer" />
+</body>
+</html>

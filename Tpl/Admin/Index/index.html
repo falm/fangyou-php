@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function reVerify(){
+				document.getElementById('rev').src="__CPUBLIC__/verify/demo.php/"+Math.random();
+			}
+		</script>		
+	</head>
+	<body>
+		
+		<div id="mian">
+			<table border="0" cellspacing="5" cellpadding="5">
+				<form action="__URL__/login/" method="post" accept-charset="utf-8">
+					
+				
+					<label for="">用户名</label><input type="text" name="username" value="" id="">
+					<label for="">密码</label><input type="password" name="password" value="" id="">
+					验证码:<img src="__CPUBLIC__/verify/demo.php" id="rev" />
+					<input type="text" name="verify" /><a  onClick="reVerify()">看不清</a>
+					<input type="submit" name="submit" value="登陆" id="submit">
+				</form>
+
+			</table>
+		</div>
+		
+	</body>
+</html>

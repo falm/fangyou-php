@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/home.style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-tab.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-alert.js"></script>
+<script type="text/javascript" charset="utf-8">
+	//$(document)
+</script>
+</head>
+<body id="sub">
+<div id="templatemo_wrapper">
+	<include file="public:header" />
+    
+     <div id="templatemo_middle_sub">
+        <div id="mid_title">应用描述</div>
+        <p>一条信息可以重复发收给指定的多用户，不在繁琐的操作，友好的多元化界面，让你耳目一新。</p>
+	</div> <!-- end of middle -->
+    
+     <div id="templatemo_main">
+        <div class="col_w200 float_l">
+            
+        <div class="well" style="padding: 8px 0;">
+            <ul class="nav nav-list">
+              <li class="nav-header">发送</li>
+              <li class="active"><a href="#broadcast" data-toggle="tab" ><i class="icon-th"></i> 广播<img src="__CPUBLIC__/images/arrow.png" class=" float_r"/></a></li>
+              <li><a href="#multicast" data-toggle="tab"><i class="icon-th-large"></i> 组播<img src="__CPUBLIC__/images/arrow.png" class=" float_r"/></a></li>
+              <li class="nav-header">接收</li>
+              <li><a href="#inbox" data-toggle="tab"><i class="icon-th-list"></i> 收件箱<img src="__CPUBLIC__/images/arrow.png" class=" float_r"/></a></li>
+              <li class="divider"></li>
+              <li><a href="#"><i class="icon-cog"></i> 设置<img src="__CPUBLIC__/images/arrow.png" class=" float_r"/></a></li>
+              <li><a href="#"><i class="icon-flag"></i> 帮助<img src="__CPUBLIC__/images/arrow.png" class=" float_r"/></a></li>
+            </ul>
+		</div>
+      
+        </div>
+            
+        <div class="col_w600 float_r">
+           
+           <div class="tab-content">
+            <div class="tab-pane active" id="broadcast">
+              <p class="textpage">填写广播信息</p>
+              <form name="broadcast" method="post" action="__URL__/send">
+              	<input type="hidden" name="way" value="1" />
+              	<textarea class="feelingsText" name="message"></textarea><br/>
+                <button type="submit" class="btn btn-primary btn-large" id="sendBdt">发送</button>
+              </form>
+            </div>
+            <div class="tab-pane" id="multicast">
+              <p>填写发送地址</p>
+              <form name="composition" method="post" action="__URL__/send">
+              	
+              	<!--<input type="text" name="member_id" value="请在这里@你的好友" onFocus="this.value = '' "  onBlur=" this.value = '请在这里@你的好友' "/>-->
+              	<select name="target_id" id="target_id">
+              		<option>请在这里@你的好友</option>
+              		<volist name="friendList" id="v">
+              		<option value="{$v.id}">{$v.username}</option>
+              		</volist>
+              	</select>
+                <textarea class="feelingsText" name="message"></textarea><br/>
+                <button type="submit" class="btn btn-primary btn-large" id="sendMti">发送</button>
+              </form>
+            </div>
+            <div class="tab-pane" id="inbox">
+              <volist name="list" id="v">
+				<div class="alert alert-{$style[$i%2]} float_{$float[$i%2]}">
+	                <a class="close" data-dismiss="alert">&times;</a>
+					<strong>@{$v.username}</strong>于{$v.postdate}说<br/>{$v.message}
+				</div><!-- end of alert-->
+				
+              </volist>
+              <div class="alert alert-info float_l">
+                <a class="close" data-dismiss="alert">&times;</a>
+                <strong>某某2说：</strong><br/> 收件信息数据项
+              </div><!-- end of alert-->
+              
+              <div class="alert alert-success float_r">
+                <a class="close" data-dismiss="alert">&times;</a>
+                <strong>某某3说：</strong><br/> 收件信息数据项
+              </div><!-- end of alert-->
+              
+            </div>
+          </div><!-- end of tab-->
+          
+        </div><!--end of col_w600-->
+    	
+    	<div class="cleaner"></div>
+    </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+	<include file="public:sub_menu" />
+	<include file="public:footer" />	
+</body>
+</html>

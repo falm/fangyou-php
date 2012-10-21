@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|笔记|{$row.title}</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/home.style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-tab.js"></script>
+<script type="text/javascript" src="__CPUBLIC__/js/bootstrap-dropdown.js"></script>
+
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+	<include file="public:header" />
+	 <!-- end of header -->
+   
+    <div id="templatemo_middle_sub">
+        <div id="mid_title">笔记</div>
+        <p>生活中的日志是记录你生活的点点滴滴，让它把你内心的世界表露出来，更好的诠释自己的内心世界，而电脑里的日志可以是有价值的信息宝库，也可以是毫无价值的数据泥潭。</p>
+	</div> <!-- end of middle -->
+    
+     <div id="templatemo_main">
+     	<div >
+            <a href="__URL__/edit/id/{$row.id}" title="修改"><li class="icon-pencil"></li></a>
+            <a href="__URL__/destroy/id/{$row.id}" title="删除"><li class="icon-remove"></li></a>
+        </div><br/>
+        <h4>标题:</h4><p>{$row.title}</p>
+        <h4>内容:</h4>
+        <p>{$row.content}</p>
+    </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+	<include file="public:sub_menu" />
+	<include file="public:footer" />
+
+</body>
+</html>

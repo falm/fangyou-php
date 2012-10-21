@@ -1,0 +1,470 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 12px;
+	font-family: "宋体",tahoma,arial;
+	vertical-align: baseline;
+}
+
+/*general style*/
+.clr{
+	border-top:1px solid transparent !important;
+	margin-top:-1px !important;
+	border-top:0;
+	margin-top:0;
+	clear:both;
+	visibility:hidden;
+}
+div{
+	display:block;
+}
+
+a:link{text-decoration:none;color:#003CC8;}
+a:visited{text-decoration:none;color:#003CC8;}
+a:active,a:hover{text-decoration:underline;color:#FF6600;}
+ul {
+	list-style:none;
+}
+/*header style*/
+#header_wrap{
+	margin:0px;	
+	height:80px;
+	background: #4e6a80 url(../images/topback.gif) repeat-x ;	
+}
+
+#header_banner_wrap{
+	height:40px;
+	padding:0px ;
+}
+#header_banner1{
+	margin-left:20px ;
+	margin-top:8px ;
+	height:25px;
+	float:left;
+}
+#header_banner1 span{
+	font-size:15px;
+	font-weight:bold;
+	color:#cad5de;
+}
+#header_banner2{
+	margin-right:100px;
+	width:218px;
+	height:25px;
+	float:right;
+	background: #4e6a80 url(../images/topdh.gif) no-repeat;
+}
+#header_banner2 span{	
+	
+	color:#ff0;
+	display:block;
+	text-align:center;
+	line-height:25px;
+}
+
+#header_navi_wrap{	
+	height:40px;
+	margin-top:5px;
+}
+
+#header_navi{	
+	float:left;
+	margin-left:10px;
+}
+
+#header_menu{
+	float:right;
+	margin-right:100px;
+}
+
+#header_navi li{
+	float:left;
+	width:82px;
+	height:26px;
+	background: url(../images/button3.gif) no-repeat 0px 0px;
+	line-height:25px;
+	vertical-align:middle;
+	text-align: center;
+	color:#FBF8D5;
+}
+
+#header_navi li a{
+	color:#FBF8D5;
+	font-size:13px;
+}
+#header_navi li a:hover{
+	text-decoration: underline;	
+}
+#header_menu span{
+	color:#fff;
+	margin:0 5px;
+	font-size:13px;
+}
+#header_menu a{
+	color:#ff8;
+	font-size:13px;
+}
+#header_menu a:hover{
+	text-decoration: underline;	
+}
+
+/*left naviigator style*/
+#leftmunu{
+	margin:0;
+	width:118px;
+}
+
+.leftmenuli{
+	background: url(../images/left_icon.gif) no-repeat 5px 6px;
+	background-color:#dbecfa;
+	height:22px;
+	line-height:22px;
+	border-top:1px solid #cbcbcb;
+	float:left;
+	width:98px !important;
+	width:118px;
+	padding-left:20px;
+}
+
+.leftmenuli2{
+	background-color:#F8F8F8;
+	height:22px;
+	line-height:22px;
+	border-bottom:1px solid #EDEDEB;
+	float:left;
+	width:98px !important;
+	width:118px;
+	padding-left:20px;
+}
+
+/* middleFrame style*/
+#middleFrame{
+	background-color:#6e7879;		
+}
+#middle_wrap{ 
+	height:550px;
+	margin:0 auto;display:table; 
+	*position:relative; 
+} 
+#middle_hack{ 
+	display:table-cell;
+	vertical-align:middle; 
+	*position:absolute;*top:50%; 
+} 
+#middle_cnt{ 
+	*position:relative;
+	*top:-50%; 
+	cursor:pointer;
+} 
+
+/*main page style*/
+#contentBody{
+	background-color:#F6F6F6;		
+}
+
+/*content style*/
+#content_top{
+	background-color:#6e7879;
+	height:25px;
+	line-height:25px;   
+    overflow:hidden; 
+	padding-left:10px;	
+	color:#fff;
+}
+
+#content{	
+	margin:16px 0 0 20px;
+	width:870px;
+}
+
+.content_title{		
+	padding:6px 15px;
+	border: 1px solid #CCC;	
+	background: url(../images/title.gif) repeat-x top;
+}
+.content_table_wrap{
+	
+}
+
+#table_4column{
+	width:100%;
+	border-left: 1px solid #CCC;
+	empty-cells:show; 
+    border-collapse: collapse;
+    margin:0 auto;	
+}
+#table_4column td{
+	padding:5px 5px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	vertical-align:middle;
+}
+#table_4column .td_label{
+	text-align:right;	
+	width:15%;	
+}
+#table_4column .td_text{
+	text-align:left;	
+	width:30%;
+}
+
+.flexigrid div.fbutton .add {
+	background: url(../images/add.png) no-repeat center left;	
+}
+
+.flexigrid div.fbutton .delete {
+	background: url(../images/close.png) no-repeat center left;
+}
+
+.flexigrid div.fbutton .edit {
+	background: url(../images/edit.png) no-repeat center left;	
+}
+
+/* form style*/
+form.formular {	
+	margin: 0 auto;
+}
+
+.formular input,.formular select,.formular textarea {
+	display: block;  /* this breaks relative positioning */	
+}
+
+.formular .text-input {
+	width: 150px;
+	color: #555;
+	padding: 2px;
+	border: 1px solid #B5B8C8;	
+	background: #FFF repeat-x;
+}
+
+.formular textarea {
+	width: 400px;
+	height: 70px;
+	color: #555;
+	padding: 2px;
+	border: 1px solid #B5B8C8;	
+	background: #FFF repeat-x;
+}
+
+.formular .checkbox, .formular .radio {
+	display: inline;
+}
+
+.formular .submit {	
+	border: 1px solid #AAA;
+	padding: 4px;
+	margin-top: 20px;
+	float: right;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.formular .fc-error {
+	width: 350px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 12px;
+	margin-bottom: 15px;
+	background: #FFEAEA;
+}
+
+./* Z-INDEX */
+ .formError { z-index: 990; }
+    .formError .formErrorContent { z-index: 991; }
+    .formError .formErrorArrow { z-index: 996; }
+    
+    .formErrorInsideDialog.formError { z-index: 5000; }
+    .formErrorInsideDialog.formError .formErrorContent { z-index: 5001; }
+    .formErrorInsideDialog.formError .formErrorArrow { z-index: 5006; }
+
+.formErrorOuter{
+
+}
+.inputContainer {
+	position: relative;
+	float: left;
+}
+
+.formError {
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	display: block;
+	cursor: pointer;
+}
+
+.ajaxSubmit {
+	padding: 20px;
+	background: #55ea55;
+	border: 1px solid #999;
+	display: none
+}
+
+.formError .formErrorContent {
+	width: 100%;
+	background: #ee0101;
+	position:relative;
+	color: #fff;
+	width: 150px;
+	font-size: 11px;
+	border: 2px solid #ddd;
+	box-shadow: 0 0 6px #000;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	padding: 4px 10px 4px 10px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.greenPopup .formErrorContent {
+	background: #33be40;
+}
+
+.blackPopup .formErrorContent {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow {
+	width: 15px;
+	margin: -2px 0 0 13px;
+	position:relative;
+}
+body[dir='rtl'] .formError .formErrorArrow,
+body.rtl .formError .formErrorArrow {
+	margin: -2px 13px 0 0;
+}
+
+.formError .formErrorArrowBottom {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	margin: 0px 0 0 12px;
+	top:2px;
+}
+
+.formError .formErrorArrow div {
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	box-shadow: 0 2px 3px #444;
+	-moz-box-shadow: 0 2px 3px #444;
+	-webkit-box-shadow: 0 2px 3px #444;
+	font-size: 0px;
+	height: 1px;
+	background: #ee0101;
+	margin: 0 auto;
+	line-height: 0;
+	font-size: 0;
+	display: block;
+}
+
+.formError .formErrorArrowBottom div {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.greenPopup .formErrorArrow div {
+	background: #33be40;
+}
+
+.blackPopup .formErrorArrow div {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow .line10 {
+	width: 15px;
+	border: none;
+}
+
+.formError .formErrorArrow .line9 {
+	width: 13px;
+	border: none;
+}
+
+.formError .formErrorArrow .line8 {
+	width: 11px;
+}
+
+.formError .formErrorArrow .line7 {
+	width: 9px;
+}
+
+.formError .formErrorArrow .line6 {
+	width: 7px;
+}
+
+.formError .formErrorArrow .line5 {
+	width: 5px;
+}
+
+.formError .formErrorArrow .line4 {
+	width: 3px;
+}
+
+.formError .formErrorArrow .line3 {
+	width: 1px;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	border-bottom: 0 solid #ddd;
+}
+
+.formError .formErrorArrow .line2 {
+	width: 3px;
+	border: none;
+	background: #ddd;
+}
+
+.formError .formErrorArrow .line1 {
+	width: 1px;
+	border: none;
+	background: #ddd;
+}
+
+
+#content_bottom{
+	margin-top:15px;
+	margin-left:320px;
+}
+
+#content_bottom input.orangebutton{
+	display:inline;
+	width:78px;
+	height:26px;
+}
+
+#dialog-form fieldset { 
+	padding:0; border:0; margin-top:10px; 
+}
+#dialog-form label{
+	margin-bottom:6px;
+	font-weight:500;
+}
+#dialog-form label, #dialog-form input{ 
+	display:block; 
+}
+#dialog-form input.text { 
+	margin-bottom:12px; 
+	width:95%; 
+	padding: .4em; 
+}
+#dialog-form input.button { 
+	margin-top:12px; 
+	margin-right:6px; 
+	display:inline; 
+}

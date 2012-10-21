@@ -1,0 +1,59 @@
+
+
+
+
+#droplist{
+	color: #a2a8b8;
+	text-decoration:none;
+}
+#droplist ul{
+	list-style:none;
+}
+#droplist:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+.dropdown-menu a{
+	text-decoration:none;
+}
+
+.tabbable a{
+	text-decoration:none;
+}
+
+
+.tab-content {
+	float:left;
+}
+
+#notecontent {
+	width:800px;
+	height:600px;
+}
+/*=====  重写 templatemo_style 中的 CSS ==*/
+.image_frame img{
+	width:auto;
+	height:auto;
+	float:right;
+	
+}
+
+
+#pic_remove{
+	color:#F00;
+
+	font-size:14px;
+	font-weight:500;
+	text-decoration:none;
+}
+
+
+	img.picker{
+	    height:16px;
+	    width:16px;
+	    margin-left:-19px;
+	    vertical-align:middle;
+	    padding-bottom: 2px;
+	    cursor:pointer;
+	    border:none;	  
+	}

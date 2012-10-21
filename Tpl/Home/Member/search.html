@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>访友|搜索好友</title>
+<link href="__CPUBLIC__/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="__CPUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__CPUBLIC__/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function  () {
+		$('button[rel=add_group]').click(function  () {
+			ids = $(this).attr('name');
+			//alert(ids);
+			$.get('__URL__/add/',{id:ids},function  (data) {
+				alert(data.info);
+			},'json');
+		});
+	});
+</script>
+</head>
+<body id="sub">
+
+<div id="templatemo_wrapper">
+	<div id="templatmeo_header">
+    	<div id="logo_header">
+        	<img src="__CPUBLIC__/images/mylogo.png"/>
+        </div>
+    </div> <!-- end of header -->
+   
+    <div id="templatemo_middle_sub">
+        <div id="mid_title">搜索</div>
+        <p>----目前，搜索页面----</p>
+	</div> <!-- end of middle -->
+    
+     <div id="templatemo_main">
+     	<form method="post" action="">
+        	<input type="text" name="username" class="input-medium search-query">
+        	<button type="submit" name="submit" class="btn btn-primary btn-large">搜索</button>
+        </form>
+        
+        <table class="table">
+          <thead>
+            <tr>
+              <th>　</th>
+              <th>网名</th>
+              <th>实名</th>
+              <th>编辑</th>
+            </tr>
+          </thead>
+          <tbody>
+          	<volist name="list" id="v">
+            <tr>
+              <td>{$i}</td>
+              <td>{$v.username}</td>
+              <td>{$v.realname}</td>
+              <td><button rel="add_group" class="btn btn-primary" name="{$v.id}">添加为好友</button></td>
+            </tr>
+			</volist>
+          </tbody>
+        </table><!-- end of table-->
+      
+  </div> <!-- end of templatemo_main -->
+</div> <!-- end of wrapper -->
+
+<include file="public:sub_menu" />
+
+<include file="public:footer" />
+
+</body>
+</html>
