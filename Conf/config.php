@@ -18,12 +18,12 @@ return array(
 	//数据库配置信息
 	
 	'DB_TYPE'	=>	'mysql',
-	'DB_USER'	=>	'root',
-	'DB_PWD'	=>	'jay',
+	'DB_USER'	=>	'db_user',
+	'DB_PWD'	=>	'password',
 	'DB_HOST'	=>	'localhost',
-	'DB_NAME'	=>	'cbox_test',
+	'DB_NAME'	=>	'db_name',
 	'DB_PREFIX'	=>	'',
-	//'DB_DSN'	=>	'mysql:host=localhost;dbname=cbox_test;charset=UTF-8',
+
 
 	
 	//分组配置信息
